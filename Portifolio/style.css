@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #000000;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 12% 4rem;
+    background: rgb(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.logo{
+    font-size: 3rem;
+    font-family: 'sedgwick ave', sans-serif;
+    color: rgb(255, 0, 106);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.logo span{
+    text-shadow: 0 0 25px white;
+}
+
+.navbar{
+    font-size: 1.8rem;
+    color: white;
+    display: flex;
+}
+
+.navbar p{
+    margin-left: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar p:hover{
+    color: rgb(255, 0, 106);
+    transition: 0.4s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
