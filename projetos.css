@@ -121,29 +121,59 @@ body{
 }
 
 .site-mark{
-    width: 700px;
-    height: 370px;
+    width: 84rem;
+    height: 47rem;
     margin-top: 2%;
     margin-left: 7%;
     box-shadow: 0 0 15px rgb(255, 0, 106);
 }
 
-.p-mark b{
+.site-mark:hover{
+    box-shadow: 0 0 25px rgb(255, 0, 106);
+}
+
+#tit-mark{
     color: rgb(255, 0, 106);
 }
 
-.projetos{
-    border: 2px solid green;
+u{
+    color: rgb(255, 0, 106);
+}
+
+.los{
+    color: rgb(255, 136, 0);
+}
+
+.camp-freefire{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.tit-mark{
+    font-size: 2.5rem;
 }
 
 .freefire{
     font-family: 'rubik', sans-serif;
     color: white;
     font-size: 15px;
+    margin-left: 7%;
+    margin-top: 2%;
 }
 
 .freefire-img{
+    margin-left: 7%;
+    margin-top: 1%;
+    margin-bottom: 10rem;
+    box-shadow: 0 0 15px rgb(255, 136, 0);
+}
 
+.freefire-img:hover{
+    box-shadow: 0 0 25px rgb(255, 136, 0);
+}
+
+.text-freefire b{
+    color: rgb(255, 255, 255);
 }
 
 /**

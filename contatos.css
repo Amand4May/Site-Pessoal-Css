@@ -102,9 +102,6 @@ body{
 }
 
 .foto-amanda img{
-    position: absolute;
-    top: 20%;
-    margin-left: 15%;
     width: 28vw;
     box-shadow: 0 0 25px rgb(255, 0, 106);
     border-radius: 50%;
@@ -116,4 +113,16 @@ body{
     box-shadow: 0 0 25px rgb(255, 0, 106),
                 0 0 40px rgb(255, 0, 106),
                 0 0 80px rgb(255, 0, 106);
+}
+
+.foto-amanda{
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-right: 20rem;
+    border: 2px solid green;
+}
+
+.contacts{
+    color: white;
+    margin-left: 300px;
 }
