@@ -147,8 +147,8 @@ body{
 }
 
 .desenho-img{
-    width: 320px;
-    height: 400px;
+    width: 32rem;
+    height: 40rem;
     box-shadow: 0 0 10px rgb(8, 255, 234);
     cursor: pointer;
     border-radius: 5%;
@@ -159,10 +159,10 @@ body{
 }
 
 .stardew-img{
-    width: 350px;
-    height: 400px;
+    width: 36rem;
+    height: 40rem;
     cursor: pointer;
-    margin-left: 7.8%;
+    margin-left: 4%;
     box-shadow: 0 0 15px rgb(255, 81, 0);
     border-radius: 5%;
 }
@@ -172,9 +172,9 @@ body{
 }
 
 .billie-video{
-    width: 400px;
-    height: 400px;
-    margin-left: 6.5%;
+    width: 40rem;
+    height: 40rem;
+    margin-left: 4%;
     cursor: pointer;
     box-shadow: 0 0 15px white;
     border-radius: 5%;

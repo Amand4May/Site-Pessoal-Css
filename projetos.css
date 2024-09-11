@@ -105,16 +105,51 @@ body{
     cursor: pointer;
 }
 
-.site img{
+.tit-projeto{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin-left: 7%;
+    margin-top: 9%;
+}
+
+.text-mark p{
+    font-family: 'rubik', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-left: 7%;
+}
+
+.site-mark{
     width: 700px;
     height: 370px;
-    margin-left: 7vw;
-    margin-top: 15vw;
+    margin-top: 2%;
+    margin-left: 7%;
     box-shadow: 0 0 15px rgb(255, 0, 106);
 }
 
+.p-mark b{
+    color: rgb(255, 0, 106);
+}
+
+.projetos{
+    border: 2px solid green;
+}
+
+.freefire{
+    font-family: 'rubik', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.freefire-img{
+
+}
+
+/**
+
+
 .freefire img{
-    position: absolute;
     width: 400px;
     margin-left: 57vw;
     margin-top: -22vw;
@@ -124,7 +159,6 @@ body{
 .desc-freefire p{
     font-family: 'rubik', sans-serif;
     color: white;
-    position: absolute;
     font-size: 15px;
     margin-left: 57vw;
     margin-top: -26vw;
@@ -134,24 +168,20 @@ body{
     color: rgb(255, 94, 0);
 }
 
-.desc-mark p{
-    font-family: 'rubik', sans-serif;
-    color: white;
-    position: absolute;
-    font-size: 15px;
-    margin-left: 7%;
-    margin-top: -26vw;
-}
-
 .desc-mark b{
     color: rgb(255, 0, 106);
 }
 
-.tit-projeto{
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    font-size: 35px;
-    color: white;
-    margin-left: 7%;
-    margin-top: -30vw;
-}
+
+            <div class="freefire">
+                <a href="https://g.co/kgs/EuRkffN"><img class="site-mark" src="./time free fire.png" alt="time free fire"></a>
+            </div>
+            <p class="tit-projeto">
+                Projetos:
+            </p>
+            <div class="desc-freefire">
+                <p>
+                    30 Campeonatos de <b>Free Fire</b>: <br>
+                    30x campeã em competições de Free fire pela organização <b>Los Grandes</b>,<br>
+                    um jogo de time online mobile do estilo battleground.</p>
+            </div>
