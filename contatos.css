@@ -101,6 +101,8 @@ body{
     cursor: pointer;
 }
 
+/** navbar e header final**/
+
 .foto-amanda img{
     width: 28vw;
     box-shadow: 0 0 25px rgb(255, 0, 106);
