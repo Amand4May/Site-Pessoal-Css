@@ -120,11 +120,49 @@ body{
 .foto-amanda{
     margin-top: 12%;
     margin-left: 15%;
-    margin-right: 20rem;
+    margin-right: 950px;
     border: 2px solid green;
 }
 
 .contacts{
     color: white;
-    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 47%;
+    margin-top: -20%;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+.contact-item img {
+    width: 35px;
+}
+
+.contacts p{
+    color: white;
+    font-family: 'rubik', sans-serif;
+    font-size: 2.2rem;
+}
+
+.contacts a{
+    color: white;
+}
+
+.com{
+    text-decoration: underline;
 }
